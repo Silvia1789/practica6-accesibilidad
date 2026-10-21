@@ -1,0 +1,56 @@
+* { outline: none; }
+body { margin: 0; font-family: Georgia, serif; font-size: 13px; color: #333; background: #fff; }
+.wrap { width: 1100px; margin: 0 auto; }
+.tb { background: #0b7285; color: #5fa8b5; font-size: 11px; padding: 5px 20px; display: flex; gap: 24px; }
+.tl { cursor: pointer; }
+.hd { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
+.mn { display: flex; align-items: center; gap: 4px; }
+.mi { position: relative; padding: 8px 10px; color: #8fc9c3; cursor: pointer; font-size: 13px; }
+.sm { display: none; position: absolute; top: 32px; left: 0; width: 180px; background: #fff; border: 1px solid #eee; z-index: 6; }
+.mi:hover .sm { display: block; }
+.sm div { padding: 6px 8px; color: #aaa; font-size: 11px; }
+.cita { background: #2ec4b6; color: #a8ebe5; padding: 7px 12px; cursor: pointer; margin-left: 8px; }
+.ic { vertical-align: -3px; }
+.hero { display: flex; background: #e6faf8; }
+.hl { width: 500px; padding: 50px 30px; }
+.h1 { font-size: 40px; font-weight: bold; color: #8fd8d0; }
+.h2 { font-size: 20px; color: #9dc9c5; margin: 10px 0; }
+.flash { display: inline-block; background: #fff3b0; color: #f1c40f; font-weight: bold; padding: 5px 10px; animation: blink 1s step-start infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.cd { color: #aadbd6; font-size: 12px; margin-top: 10px; }
+.hi { width: 600px; height: 330px; }
+.sec { padding: 16px 20px; }
+.st { font-size: 26px; font-weight: bold; color: #7fcfc7; margin-bottom: 12px; }
+.form { background: #f4fcfb; padding: 14px; width: 420px; }
+.form input[type=text], .form select { display: block; width: 380px; margin: 6px 0; padding: 7px; border: 1px solid #ddd; font-size: 12px; }
+::placeholder { color: #ccc; }
+.chk { display: inline-block; width: 12px; height: 12px; border: 1px solid #ccc; vertical-align: middle; } .chk.c { background: #cde; }
+.ct { font-size: 11px; color: #aaa; margin-left: 6px; }
+.go { display: block; background: #2ec4b6; color: #a8ebe5; padding: 8px 16px; cursor: pointer; width: 80px; text-align: center; margin-top: 10px; }
+.err { color: red; padding-top: 4px; font-size: 12px; }
+.grid { display: flex; flex-wrap: wrap; gap: 14px; }
+.sv { width: 330px; background: #f9fdfc; padding-bottom: 8px; }
+.sv img { width: 330px; height: 150px; display: block; }
+.svt { font-weight: bold; font-size: 16px; color: #9bc8c3; padding: 6px 8px 0; }
+p { text-align: justify; line-height: 1.1; font-size: 11px; color: #aaa; margin: 4px 8px; }
+a { color: #8fc9c3; text-decoration: none; }
+.lm { color: #a8ebe5; background: #2ec4b6; width: 70px; text-align: center; padding: 4px; margin: 4px 8px; cursor: pointer; font-size: 11px; }
+.num { display: flex; justify-content: space-around; background: #0b7285; color: #5fa8b5; padding: 18px; margin: 14px 0; font-size: 12px; text-align: center; }
+.n { font-size: 36px; font-weight: bold; color: #7fbfca; }
+select { padding: 6px; font-size: 12px; border: 1px solid #ddd; }
+.cl { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.cn { width: 330px; background: #f4fcfb; padding: 10px; color: #aaa; font-size: 11px; line-height: 1.6; }
+.revs { background: #f4fcfb; padding: 14px; }
+.rn { font-weight: bold; color: #aaa; }
+.rt { color: #ffe08a; }
+.q { background: #eef9f8; color: #aaa; padding: 8px; margin-top: 4px; cursor: pointer; }
+.ft { background: #0b7285; color: #4f9aa7; font-size: 10px; padding: 20px; margin-top: 24px; }
+.cp { margin-top: 8px; }
+.chatb { position: fixed; right: 14px; bottom: 14px; width: 40px; height: 40px; border-radius: 20px; background: #2ec4b6; color: #7fdad2; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 15; }
+.chat { display: none; position: fixed; right: 14px; bottom: 64px; width: 240px; background: #fff; border: 1px solid #ddd; z-index: 15; }
+.chh { background: #2ec4b6; color: #8fe0d9; padding: 8px; font-weight: bold; }
+.x { float: right; cursor: pointer; font-size: 10px; width: 12px; }
+.chm { padding: 10px; color: #aaa; font-size: 11px; }
+.chat input { width: 220px; margin: 0 10px 10px; padding: 5px; border: 1px solid #ddd; }
+.ck { display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: #333; color: #777; padding: 12px; font-size: 11px; z-index: 30; }
+.ok { background: #555; color: #888; padding: 3px 8px; margin-left: 10px; cursor: pointer; }
